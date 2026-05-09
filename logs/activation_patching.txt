@@ -1,0 +1,29 @@
+Using device: mps
+Loaded pretrained model meta-llama/Llama-3.2-1B-Instruct into HookedTransformer
+
+BASELINE SCORES
+------------------------------
+Clean score:   3.3125
+Corrupt score: -4.5781
+
+RUNNING PATCHING...
+------------------------------
+
+PATCHING RESULTS
+------------------------------
+Layer  0 | Patched Score: -4.5781 | Restoration: 0.0000
+Layer  1 | Patched Score: -4.5938 | Restoration: -0.0020
+Layer  2 | Patched Score: -4.5469 | Restoration: 0.0040
+Layer  3 | Patched Score: -4.5781 | Restoration: 0.0000
+Layer  4 | Patched Score: -4.5781 | Restoration: 0.0000
+Layer  5 | Patched Score: -4.6250 | Restoration: -0.0059
+Layer  6 | Patched Score: -4.5000 | Restoration: 0.0099
+Layer  7 | Patched Score: -4.7500 | Restoration: -0.0218
+Layer  8 | Patched Score: -4.7188 | Restoration: -0.0178
+Layer  9 | Patched Score: -4.3906 | Restoration: 0.0238
+Layer 10 | Patched Score: -0.5156 | Restoration: 0.5149
+Layer 11 | Patched Score: -0.8125 | Restoration: 0.4772
+Layer 12 | Patched Score:  1.2031 | Restoration: 0.7327
+Layer 13 | Patched Score:  1.2656 | Restoration: 0.7406
+Layer 14 | Patched Score:  1.2969 | Restoration: 0.7446
+Layer 15 | Patched Score:  1.2344 | Restoration: 0.7366
